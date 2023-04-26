@@ -1,0 +1,891 @@
+﻿  articulos.cpp
+C:\Users\ffior\source\repos\Model\articulos.cpp(13,1): error C2628: 'articulos' seguido de 'void' no es válido (¿ha olvidado ';'?)
+C:\Users\ffior\source\repos\Model\articulos.cpp(13,17): error C2533: 'articulos::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\articulos.cpp(20,19): error C2143: error de sintaxis: falta ';' delante de 'articulos::get_precio'
+C:\Users\ffior\source\repos\Model\articulos.cpp(20,29): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\articulos.cpp(20,32): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\articulos.cpp(20,32): error C2556: 'int articulos::get_precio(void)': la función sobrecargada solo se diferencia de 'unsigned int articulos::get_precio(void)' por el tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\articulos.h(14,18): message : vea la declaración de 'articulos::get_precio'
+C:\Users\ffior\source\repos\Model\articulos.cpp(20,19): error C2371: 'articulos::get_precio': nueva definición; tipos básicos distintos
+C:\Users\ffior\source\repos\Model\articulos.h(14,18): message : vea la declaración de 'articulos::get_precio'
+C:\Users\ffior\source\repos\Model\articulos.cpp(21,12): error C2065: 'null': identificador no declarado
+C:\Users\ffior\source\repos\Model\articulos.cpp(27,18): error C2143: error de sintaxis: falta ';' delante de 'articulos::get_stock'
+C:\Users\ffior\source\repos\Model\articulos.cpp(27,27): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\articulos.cpp(27,30): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\articulos.cpp(27,30): error C2556: 'int articulos::get_stock(void)': la función sobrecargada solo se diferencia de 'unsigned int articulos::get_stock(void)' por el tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\articulos.h(16,18): message : vea la declaración de 'articulos::get_stock'
+C:\Users\ffior\source\repos\Model\articulos.cpp(27,18): error C2371: 'articulos::get_stock': nueva definición; tipos básicos distintos
+C:\Users\ffior\source\repos\Model\articulos.h(16,18): message : vea la declaración de 'articulos::get_stock'
+C:\Users\ffior\source\repos\Model\articulos.cpp(28,12): error C2065: 'null': identificador no declarado
+C:\Users\ffior\source\repos\Model\articulos.cpp(35,33): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\articulos.cpp(35,17): error C2511: 'void articulos::set_precio(int)': la función miembro sobrecargada no se ha encontrado en 'articulos'
+C:\Users\ffior\source\repos\Model\articulos.h(9,7): message : vea la declaración de 'articulos'
+C:\Users\ffior\source\repos\Model\articulos.cpp(43,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\articulos.cpp(43,17): error C2511: 'void articulos::set_stock(int)': la función miembro sobrecargada no se ha encontrado en 'articulos'
+C:\Users\ffior\source\repos\Model\articulos.h(9,7): message : vea la declaración de 'articulos'
+C:\Users\ffior\source\repos\Model\articulos.cpp(47,17): error C2039: "Operation1": no es un miembro de "articulos"
+C:\Users\ffior\source\repos\Model\articulos.h(9,7): message : vea la declaración de 'articulos'
+C:\Users\ffior\source\repos\Model\articulos.cpp(51,17): error C2533: 'articulos::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\articulos.cpp(51,17): error C2084: la función 'articulos::articulos(void)' ya tiene un cuerpo
+C:\Users\ffior\source\repos\Model\articulos.cpp(13,17): message : vea la definición anterior de '{ctor}'
+  carrito.cpp
+C:\Users\ffior\source\repos\Model\carrito.h(17,19): warning C4076: "unsigned": no se puede utilizar con el tipo "void"
+C:\Users\ffior\source\repos\Model\carrito.h(17,28): error C2120: 'void' no es válido con todos los tipos
+C:\Users\ffior\source\repos\Model\carrito.h(17,38): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\carrito.h(17,51): warning C4076: "unsigned": no se puede utilizar con el tipo "void"
+C:\Users\ffior\source\repos\Model\carrito.h(17,60): error C2120: 'void' no es válido con todos los tipos
+C:\Users\ffior\source\repos\Model\carrito.h(17,64): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\carrito.h(17,64): error C2533: 'carrito': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\carrito.h(19,7): error C2577: 'carrito': destructor no puede tener un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\carrito.h(21,7): error C3646: 'get_monto': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\carrito.h(21,16): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\carrito.h(21,18): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\carrito.h(23,11): error C3646: 'get_productos': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\carrito.h(23,24): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\carrito.h(23,26): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\carrito.h(25,16): error C3646: 'get_cant': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\carrito.h(25,24): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\carrito.h(25,26): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\carrito.h(28,12): error C3646: 'productos': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\carrito.h(28,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\carrito.cpp(18,28): warning C4076: "unsigned": no se puede utilizar con el tipo "void"
+C:\Users\ffior\source\repos\Model\carrito.cpp(18,37): error C2120: 'void' no es válido con todos los tipos
+C:\Users\ffior\source\repos\Model\carrito.cpp(18,47): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\carrito.cpp(18,60): warning C4076: "unsigned": no se puede utilizar con el tipo "void"
+C:\Users\ffior\source\repos\Model\carrito.cpp(18,69): error C2120: 'void' no es válido con todos los tipos
+C:\Users\ffior\source\repos\Model\carrito.cpp(18,74): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\carrito.cpp(18,15): error C2533: 'carrito::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\carrito.cpp(22,16): error C2577: 'carrito::~carrito': destructor no puede tener un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\carrito.cpp(29,16): error C2039: "get_monto": no es un miembro de "carrito"
+C:\Users\ffior\source\repos\Model\carrito.h(9,7): message : vea la declaración de 'carrito'
+C:\Users\ffior\source\repos\Model\carrito.cpp(29,25): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\carrito.cpp(29,25): error C2146: error de sintaxis: falta ';' delante del identificador 'get_monto'
+C:\Users\ffior\source\repos\Model\carrito.cpp(29,28): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\carrito.cpp(29,28): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\carrito.cpp(36,20): error C2039: "get_productos": no es un miembro de "carrito"
+C:\Users\ffior\source\repos\Model\carrito.h(9,7): message : vea la declaración de 'carrito'
+C:\Users\ffior\source\repos\Model\carrito.cpp(36,33): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\carrito.cpp(36,33): error C2146: error de sintaxis: falta ';' delante del identificador 'get_productos'
+C:\Users\ffior\source\repos\Model\carrito.cpp(36,36): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\carrito.cpp(36,36): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\carrito.cpp(43,25): error C2039: "get_cant": no es un miembro de "carrito"
+C:\Users\ffior\source\repos\Model\carrito.h(9,7): message : vea la declaración de 'carrito'
+C:\Users\ffior\source\repos\Model\carrito.cpp(43,33): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\carrito.cpp(43,33): error C2146: error de sintaxis: falta ';' delante del identificador 'get_cant'
+C:\Users\ffior\source\repos\Model\carrito.cpp(43,36): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\carrito.cpp(43,36): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+  cliente.cpp
+C:\Users\ffior\source\repos\Model\empleado.h(12,35): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\empleado.h(21,20): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\empleado.h(21,33): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\empleado.h(21,33): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\empleado.h(21,40): error C2533: 'empleado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\empleado.h(23,21): error C2061: error de sintaxis: identificador 'numero_orden'
+C:\Users\ffior\source\repos\Model\empleado.h(23,34): error C2590: 'llamar_cliente': solo un constructor puede tener una lista de inicializadores de base o miembro
+C:\Users\ffior\source\repos\Model\empleado.h(23,34): error C2533: 'empleado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\empleado.h(23,41): error C2969: error de sintaxis: ';': se esperaba que la definición de función miembro finalizase con '}'
+C:\Users\ffior\source\repos\Model\empleado.h(27,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\empleado.h(27,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\empleado.h(27,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\empleado.h(29,10): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\empleado.h(29,22): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\empleado.h(29,24): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\empleado.h(32,16): error C2533: 'empleado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\empleado.h(34,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\empleado.h(34,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(34,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(35,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\empleado.h(35,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(35,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(23): error C2059: error de sintaxis: 'tipo'
+C:\Users\ffior\source\repos\Model\trabajador.h(14,7): error C2059: error de sintaxis: '<encabezado de clase>'
+C:\Users\ffior\source\repos\Model\trabajador.h(14,69): error C2630: ';' se ha encontrado en lo que debería ser una lista separada por comas
+C:\Users\ffior\source\repos\Model\trabajador.h(14,69): error C2789: 'empleado::nombre': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\empleado.h(34,18): message : vea la declaración de 'empleado::nombre'
+C:\Users\ffior\source\repos\Model\trabajador.h(14,69): error C2789: 'empleado::apellido': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\empleado.h(35,18): message : vea la declaración de 'empleado::apellido'
+C:\Users\ffior\source\repos\Model\trabajador.h(15,1): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\trabajador.h(22,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\trabajador.h(23,1): error C2059: error de sintaxis: 'protected'
+C:\Users\ffior\source\repos\Model\encargado.h(12,36): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2590: 'empaquetar': solo un constructor puede tener una lista de inicializadores de base o miembro
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(14,27): error C2969: error de sintaxis: ';': se esperaba que la definición de función miembro finalizase con '}'
+C:\Users\ffior\source\repos\Model\encargado.h(21,21): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(21,34): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(21,34): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\encargado.h(21,41): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(26,13): error C3646: 'cobrar': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(26,19): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(26,33): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(31,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(36,29): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(41,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(41,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(41,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(43,8): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(43,20): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(43,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(46,17): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(48,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\encargado.h(48,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(48,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(49,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\encargado.h(49,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(49,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(14): error C2222: tipo inesperado 'void': se esperaba un miembro o clase base
+C:\Users\ffior\source\repos\Model\encargado.h(14,27): error C2059: error de sintaxis: ';'
+C:\Users\ffior\source\repos\Model\persona.h(15,7): error C2059: error de sintaxis: '<encabezado de clase>'
+C:\Users\ffior\source\repos\Model\persona.h(15,85): error C2630: ';' se ha encontrado en lo que debería ser una lista separada por comas
+C:\Users\ffior\source\repos\Model\persona.h(15,85): error C2789: 'encargado::nombre': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\encargado.h(48,18): message : vea la declaración de 'encargado::nombre'
+C:\Users\ffior\source\repos\Model\persona.h(15,85): error C2789: 'encargado::apellido': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\encargado.h(49,18): message : vea la declaración de 'encargado::apellido'
+C:\Users\ffior\source\repos\Model\persona.h(16,1): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\persona.h(25,14): error C2588: '::~persona': destructor global no válido
+C:\Users\ffior\source\repos\Model\persona.h(27,8): error C2146: error de sintaxis: falta ';' delante del identificador 'get_nombre'
+C:\Users\ffior\source\repos\Model\persona.h(27,8): error C3861: 'get_nombre': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\persona.h(29,10): error C2146: error de sintaxis: falta ';' delante del identificador 'get_apellido'
+C:\Users\ffior\source\repos\Model\persona.h(29,10): error C3861: 'get_apellido': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\persona.h(31,1): error C2065: 'dni': identificador no declarado
+C:\Users\ffior\source\repos\Model\persona.h(31,5): error C2146: error de sintaxis: falta ';' delante del identificador 'get_dni'
+C:\Users\ffior\source\repos\Model\persona.h(31,5): error C3861: 'get_dni': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\persona.h(32,1): error C2059: error de sintaxis: 'protected'
+C:\Users\ffior\source\repos\Model\persona.h(34,5): error C2065: 'string': identificador no declarado
+C:\Users\ffior\source\repos\Model\persona.h(34,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\persona.h(34,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(35,5): error C2065: 'string': identificador no declarado
+C:\Users\ffior\source\repos\Model\persona.h(35,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\persona.h(35,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(12,31): error C2504: 'persona': clase base sin definir
+C:\Users\ffior\source\repos\Model\cliente.h(15,10): error C2182: 'Attribute1': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\cliente.h(21,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\cliente.h(21,39): error C2533: 'cliente': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\cliente.h(26,13): error C3646: 'pagar': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(26,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(26,31): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(33,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,40): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,51): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(47,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(52,20): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(57,30): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(62,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(71,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(76,23): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(81,31): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(83,6): error C3646: 'get_mail': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(83,14): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(83,16): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(85,14): error C3646: 'get_numero_orden': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(85,30): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(85,32): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(87,13): error C3646: 'get_cant_dinero': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(87,28): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(87,30): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(89,5): error C3646: 'get_JPG': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(89,12): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(89,14): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(91,9): error C3646: 'get_disfraz': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(91,20): fatal  error C1003: el recuento de errores supera 100; se detiene la compilación
+  cotillon.cpp
+C:\Users\ffior\source\repos\Model\cotillon.h(13,1): error C2236: token inesperado 'class'. Compruebe si olvidó un ';'
+C:\Users\ffior\source\repos\Model\cotillon.h(13,15): error C2059: error de sintaxis: ':'
+C:\Users\ffior\source\repos\Model\cotillon.h(13,17): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\cotillon.h(13,52): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\cotillon.h(13,52): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\cotillon.cpp(13,6): error C2653: 'cotillon': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\cotillon.cpp(21,6): error C2653: 'cotillon': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\cotillon.cpp(21,39): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cotillon.cpp(29,6): error C2653: 'cotillon': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\cotillon.cpp(29,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cotillon.cpp(37,6): error C2653: 'cotillon': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\cotillon.cpp(37,31): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cotillon.cpp(41,6): error C2653: 'cotillon': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\cotillon.cpp(41,16): error C2084: la función 'void cotillon(void)' ya tiene un cuerpo
+C:\Users\ffior\source\repos\Model\cotillon.cpp(13,16): message : vea la definición anterior de 'cotillon'
+  cumpleaños.cpp
+C:\Users\ffior\source\repos\Model\cumpleaños.cpp(6,10): fatal  error C1083: No se puede abrir el archivo incluir: 'cumpleaÃ±os.h': No such file or directory
+  disfraces.cpp
+C:\Users\ffior\source\repos\Model\cotillon.h(13,1): error C2236: token inesperado 'class'. Compruebe si olvidó un ';'
+C:\Users\ffior\source\repos\Model\cotillon.h(13,15): error C2059: error de sintaxis: ':'
+C:\Users\ffior\source\repos\Model\cotillon.h(13,17): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\cotillon.h(13,52): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\cotillon.h(13,52): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\disfraces.h(15,51): error C2504: 'cotillon': clase base sin definir
+C:\Users\ffior\source\repos\Model\disfraces.h(15,25): error C2500: 'disfraces': 'articulos' ya es una clase base directa
+C:\Users\ffior\source\repos\Model\articulos.h(9,7): message : vea la declaración de 'articulos'
+C:\Users\ffior\source\repos\Model\disfraces.h(17,10): error C2182: 'Attribute1': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\disfraces.h(19,17): error C2533: 'disfraces': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\disfraces.h(24,29): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.h(29,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.h(34,24): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.h(39,21): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.h(44,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.h(47,17): error C2533: 'disfraces': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\disfraces.h(50,34): error C2061: error de sintaxis: identificador 'dias'
+C:\Users\ffior\source\repos\Model\disfraces.h(51,12): error C3646: 'talle': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\disfraces.h(51,17): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\disfraces.cpp(13,17): error C2533: 'disfraces::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\disfraces.cpp(21,40): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.cpp(29,33): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.cpp(37,35): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.cpp(45,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.cpp(53,33): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\disfraces.cpp(57,17): error C2533: 'disfraces::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\disfraces.cpp(57,17): error C2084: la función 'disfraces::disfraces(void)' ya tiene un cuerpo
+C:\Users\ffior\source\repos\Model\disfraces.cpp(13,17): message : vea la definición anterior de '{ctor}'
+  empleado.cpp
+C:\Users\ffior\source\repos\Model\encargado.h(12,36): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2590: 'empaquetar': solo un constructor puede tener una lista de inicializadores de base o miembro
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(14,27): error C2969: error de sintaxis: ';': se esperaba que la definición de función miembro finalizase con '}'
+C:\Users\ffior\source\repos\Model\encargado.h(21,21): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(21,34): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(21,34): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\encargado.h(21,41): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(26,13): error C3646: 'cobrar': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(26,19): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(26,33): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(31,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(36,29): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(41,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(41,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(41,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(43,8): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(43,20): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(43,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(46,17): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(48,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\encargado.h(48,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(48,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(49,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\encargado.h(49,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(49,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(14): error C2222: tipo inesperado 'void': se esperaba un miembro o clase base
+C:\Users\ffior\source\repos\Model\encargado.h(14,27): error C2059: error de sintaxis: ';'
+C:\Users\ffior\source\repos\Model\cliente.h(12,7): error C2059: error de sintaxis: '<encabezado de clase>'
+C:\Users\ffior\source\repos\Model\cliente.h(12,31): error C2630: ';' se ha encontrado en lo que debería ser una lista separada por comas
+C:\Users\ffior\source\repos\Model\cliente.h(12,31): error C2789: 'encargado::nombre': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\encargado.h(48,18): message : vea la declaración de 'encargado::nombre'
+C:\Users\ffior\source\repos\Model\cliente.h(12,31): error C2789: 'encargado::apellido': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\encargado.h(49,18): message : vea la declaración de 'encargado::apellido'
+C:\Users\ffior\source\repos\Model\cliente.h(13,1): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\cliente.h(21,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\cliente.h(26,1): error C2065: 'cant_dinero': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(26,13): error C2146: error de sintaxis: falta ';' delante del identificador 'pagar'
+C:\Users\ffior\source\repos\Model\cliente.h(26,19): error C2144: error de sintaxis: 'void' debe estar precedido de ')'
+C:\Users\ffior\source\repos\Model\cliente.h(26,13): error C3861: 'pagar': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(26,19): error C2144: error de sintaxis: 'void' debe estar precedido de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(26,24): error C2059: error de sintaxis: ')'
+C:\Users\ffior\source\repos\Model\cliente.h(26,24): error C2182: 'precio': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\cliente.h(33,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,40): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,51): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(47,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(52,20): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(57,30): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(62,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(71,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(76,23): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(81,31): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(83,1): error C2065: 'mail': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(83,6): error C2146: error de sintaxis: falta ';' delante del identificador 'get_mail'
+C:\Users\ffior\source\repos\Model\cliente.h(83,6): error C3861: 'get_mail': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(85,1): error C2065: 'numero_orden': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(85,14): error C2146: error de sintaxis: falta ';' delante del identificador 'get_numero_orden'
+C:\Users\ffior\source\repos\Model\cliente.h(85,14): error C3861: 'get_numero_orden': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(87,1): error C2065: 'cant_dinero': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(87,13): error C2146: error de sintaxis: falta ';' delante del identificador 'get_cant_dinero'
+C:\Users\ffior\source\repos\Model\cliente.h(87,13): error C3861: 'get_cant_dinero': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(89,1): error C2065: 'JPG': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(89,5): error C2146: error de sintaxis: falta ';' delante del identificador 'get_JPG'
+C:\Users\ffior\source\repos\Model\cliente.h(89,5): error C3861: 'get_JPG': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(91,1): error C2065: 'disfraz': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(91,9): error C2146: error de sintaxis: falta ';' delante del identificador 'get_disfraz'
+C:\Users\ffior\source\repos\Model\cliente.h(91,9): error C3861: 'get_disfraz': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(93,1): error C2065: 'dias_alquilando': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(93,17): error C2146: error de sintaxis: falta ';' delante del identificador 'get_dias_alquilando'
+C:\Users\ffior\source\repos\Model\cliente.h(93,17): error C3861: 'get_dias_alquilando': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(94,1): error C2059: error de sintaxis: 'protected'
+C:\Users\ffior\source\repos\Model\cliente.h(97,1): error C2059: error de sintaxis: 'private'
+C:\Users\ffior\source\repos\Model\cliente.h(99,5): error C2065: 'string': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(99,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\cliente.h(99,22): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(100,5): error C2065: 'medio_de_pago': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(100,19): error C2146: error de sintaxis: falta ';' delante del identificador 'medio_pago'
+C:\Users\ffior\source\repos\Model\cliente.h(100,19): error C2065: 'medio_pago': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(102,5): error C2065: 'string': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(102,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\cliente.h(102,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(15,30): error C2504: 'cliente': clase base sin definir
+C:\Users\ffior\source\repos\Model\persona.h(15,65): error C2504: 'empleado': clase base sin definir
+C:\Users\ffior\source\repos\Model\persona.h(15,85): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\persona.h(23,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\persona.h(23,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\persona.h(23,32): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\persona.h(23,45): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\persona.h(23,45): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\persona.h(23,52): error C2533: 'persona': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\persona.h(25,7): error C2577: 'persona': destructor no puede tener un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\persona.h(27,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\persona.h(27,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\persona.h(27,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\persona.h(29,10): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\persona.h(29,22): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\persona.h(29,24): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\persona.h(31,5): error C3646: 'get_dni': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\persona.h(31,12): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\persona.h(31,14): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\persona.h(33,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\persona.h(33,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(33,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(34,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\persona.h(34,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(34,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(35,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\persona.h(35,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(35,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\trabajador.h(14,52): error C2504: 'empleado': clase base sin definir
+C:\Users\ffior\source\repos\Model\trabajador.h(14,26): warning C4584: 'trabajador': la clase base 'encargado' ya es una clase base de 'persona'
+C:\Users\ffior\source\repos\Model\encargado.h(12,7): message : vea la declaración de 'encargado'
+C:\Users\ffior\source\repos\Model\persona.h(15,7): message : vea la declaración de 'persona'
+C:\Users\ffior\source\repos\Model\trabajador.h(17,8): error C3646: 'get_sueldo': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\trabajador.h(17,18): fatal  error C1003: el recuento de errores supera 100; se detiene la compilación
+  encargado.cpp
+C:\Users\ffior\source\repos\Model\empleado.h(12,35): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\empleado.h(21,20): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\empleado.h(21,33): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\empleado.h(21,33): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\empleado.h(21,40): error C2533: 'empleado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\empleado.h(23,21): error C2061: error de sintaxis: identificador 'numero_orden'
+C:\Users\ffior\source\repos\Model\empleado.h(23,34): error C2590: 'llamar_cliente': solo un constructor puede tener una lista de inicializadores de base o miembro
+C:\Users\ffior\source\repos\Model\empleado.h(23,34): error C2533: 'empleado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\empleado.h(23,41): error C2969: error de sintaxis: ';': se esperaba que la definición de función miembro finalizase con '}'
+C:\Users\ffior\source\repos\Model\empleado.h(27,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\empleado.h(27,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\empleado.h(27,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\empleado.h(29,10): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\empleado.h(29,22): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\empleado.h(29,24): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\empleado.h(32,16): error C2533: 'empleado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\empleado.h(34,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\empleado.h(34,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(34,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(35,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\empleado.h(35,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(35,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(23): error C2059: error de sintaxis: 'tipo'
+C:\Users\ffior\source\repos\Model\cliente.h(12,7): error C2059: error de sintaxis: '<encabezado de clase>'
+C:\Users\ffior\source\repos\Model\cliente.h(12,31): error C2630: ';' se ha encontrado en lo que debería ser una lista separada por comas
+C:\Users\ffior\source\repos\Model\cliente.h(12,31): error C2789: 'empleado::nombre': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\empleado.h(34,18): message : vea la declaración de 'empleado::nombre'
+C:\Users\ffior\source\repos\Model\cliente.h(12,31): error C2789: 'empleado::apellido': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\empleado.h(35,18): message : vea la declaración de 'empleado::apellido'
+C:\Users\ffior\source\repos\Model\cliente.h(13,1): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\cliente.h(21,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\cliente.h(26,1): error C2065: 'cant_dinero': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(26,13): error C2146: error de sintaxis: falta ';' delante del identificador 'pagar'
+C:\Users\ffior\source\repos\Model\cliente.h(26,19): error C2144: error de sintaxis: 'void' debe estar precedido de ')'
+C:\Users\ffior\source\repos\Model\cliente.h(26,13): error C3861: 'pagar': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(26,19): error C2144: error de sintaxis: 'void' debe estar precedido de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(26,24): error C2059: error de sintaxis: ')'
+C:\Users\ffior\source\repos\Model\cliente.h(26,24): error C2182: 'precio': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\cliente.h(33,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,40): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,51): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(47,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(52,20): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(57,30): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(62,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(71,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(76,23): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(81,31): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(83,1): error C2065: 'mail': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(83,6): error C2146: error de sintaxis: falta ';' delante del identificador 'get_mail'
+C:\Users\ffior\source\repos\Model\cliente.h(83,6): error C3861: 'get_mail': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(85,1): error C2065: 'numero_orden': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(85,14): error C2146: error de sintaxis: falta ';' delante del identificador 'get_numero_orden'
+C:\Users\ffior\source\repos\Model\cliente.h(85,14): error C3861: 'get_numero_orden': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(87,1): error C2065: 'cant_dinero': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(87,13): error C2146: error de sintaxis: falta ';' delante del identificador 'get_cant_dinero'
+C:\Users\ffior\source\repos\Model\cliente.h(87,13): error C3861: 'get_cant_dinero': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(89,1): error C2065: 'JPG': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(89,5): error C2146: error de sintaxis: falta ';' delante del identificador 'get_JPG'
+C:\Users\ffior\source\repos\Model\cliente.h(89,5): error C3861: 'get_JPG': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(91,1): error C2065: 'disfraz': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(91,9): error C2146: error de sintaxis: falta ';' delante del identificador 'get_disfraz'
+C:\Users\ffior\source\repos\Model\cliente.h(91,9): error C3861: 'get_disfraz': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(93,1): error C2065: 'dias_alquilando': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(93,17): error C2146: error de sintaxis: falta ';' delante del identificador 'get_dias_alquilando'
+C:\Users\ffior\source\repos\Model\cliente.h(93,17): error C3861: 'get_dias_alquilando': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\cliente.h(94,1): error C2059: error de sintaxis: 'protected'
+C:\Users\ffior\source\repos\Model\cliente.h(97,1): error C2059: error de sintaxis: 'private'
+C:\Users\ffior\source\repos\Model\cliente.h(99,5): error C2065: 'string': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(99,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\cliente.h(99,22): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(100,5): error C2065: 'medio_de_pago': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(100,19): error C2146: error de sintaxis: falta ';' delante del identificador 'medio_pago'
+C:\Users\ffior\source\repos\Model\cliente.h(100,19): error C2065: 'medio_pago': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(102,5): error C2065: 'string': identificador no declarado
+C:\Users\ffior\source\repos\Model\cliente.h(102,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\cliente.h(102,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(15,30): error C2504: 'cliente': clase base sin definir
+C:\Users\ffior\source\repos\Model\persona.h(15,48): error C2504: 'encargado': clase base sin definir
+C:\Users\ffior\source\repos\Model\persona.h(15,85): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\persona.h(23,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\persona.h(23,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\persona.h(23,32): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\persona.h(23,45): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\persona.h(23,45): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\persona.h(23,52): error C2533: 'persona': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\persona.h(25,7): error C2577: 'persona': destructor no puede tener un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\persona.h(27,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\persona.h(27,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\persona.h(27,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\persona.h(29,10): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\persona.h(29,22): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\persona.h(29,24): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\persona.h(31,5): error C3646: 'get_dni': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\persona.h(31,12): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\persona.h(31,14): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\persona.h(33,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\persona.h(33,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(33,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(34,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\persona.h(34,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(34,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(35,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\persona.h(35,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(35,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\trabajador.h(14,35): error C2504: 'encargado': clase base sin definir
+C:\Users\ffior\source\repos\Model\trabajador.h(14,44): warning C4584: 'trabajador': la clase base 'empleado' ya es una clase base de 'persona'
+C:\Users\ffior\source\repos\Model\empleado.h(12,7): message : vea la declaración de 'empleado'
+C:\Users\ffior\source\repos\Model\persona.h(15,7): message : vea la declaración de 'persona'
+C:\Users\ffior\source\repos\Model\trabajador.h(17,8): error C3646: 'get_sueldo': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\trabajador.h(17,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\trabajador.h(17,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\trabajador.h(22,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2590: 'empaquetar': solo un constructor puede tener una lista de inicializadores de base o miembro
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): fatal  error C1003: el recuento de errores supera 100; se detiene la compilación
+  establecimiento.cpp
+C:\Users\ffior\source\repos\Model\establecimiento.h(11,10): error C2182: 'Attribute1': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,40): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,40): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,53): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,53): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,66): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,66): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,79): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,79): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\establecimiento.h(20,86): error C2533: 'establecimiento': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\establecimiento.h(22,11): error C3646: 'get_direccion': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\establecimiento.h(22,24): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\establecimiento.h(22,26): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\establecimiento.h(24,16): error C3646: 'get_horario_semana': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\establecimiento.h(24,34): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\establecimiento.h(24,36): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\establecimiento.h(26,16): error C3646: 'get_horario_sabado': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\establecimiento.h(26,34): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\establecimiento.h(26,36): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\establecimiento.h(29,23): error C2533: 'establecimiento': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\establecimiento.h(31,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\establecimiento.h(31,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.h(31,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.h(32,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\establecimiento.h(32,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.h(32,28): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.h(33,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\establecimiento.h(33,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.h(33,32): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.h(34,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\establecimiento.h(34,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.h(34,32): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.h(35,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\establecimiento.h(35,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.h(35,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,44): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,57): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,57): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,70): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,70): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,83): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,83): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,96): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,96): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,23): error C2533: 'establecimiento::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,104): error C2789: 'establecimiento::nombre': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(31,18): message : vea la declaración de 'establecimiento::nombre'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,104): error C2789: 'establecimiento::direccion': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(32,18): message : vea la declaración de 'establecimiento::direccion'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,104): error C2789: 'establecimiento::horario_semana': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(33,18): message : vea la declaración de 'establecimiento::horario_semana'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,104): error C2789: 'establecimiento::horario_sabado': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(34,18): message : vea la declaración de 'establecimiento::horario_sabado'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(20,104): error C2789: 'establecimiento::telefono': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(35,18): message : vea la declaración de 'establecimiento::telefono'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(27,28): error C2039: "get_direccion": no es un miembro de "establecimiento"
+C:\Users\ffior\source\repos\Model\establecimiento.h(9,7): message : vea la declaración de 'establecimiento'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(27,41): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(27,41): error C2146: error de sintaxis: falta ';' delante del identificador 'get_direccion'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(27,44): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(27,44): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(34,33): error C2039: "get_horario_semana": no es un miembro de "establecimiento"
+C:\Users\ffior\source\repos\Model\establecimiento.h(9,7): message : vea la declaración de 'establecimiento'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(34,51): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(34,51): error C2146: error de sintaxis: falta ';' delante del identificador 'get_horario_semana'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(34,54): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(34,54): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(41,33): error C2039: "get_horario_sabado": no es un miembro de "establecimiento"
+C:\Users\ffior\source\repos\Model\establecimiento.h(9,7): message : vea la declaración de 'establecimiento'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(41,51): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(41,51): error C2146: error de sintaxis: falta ';' delante del identificador 'get_horario_sabado'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(41,54): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(41,54): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(45,23): error C2533: 'establecimiento::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(45,41): error C2789: 'establecimiento::nombre': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(31,18): message : vea la declaración de 'establecimiento::nombre'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(45,41): error C2789: 'establecimiento::direccion': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(32,18): message : vea la declaración de 'establecimiento::direccion'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(45,41): error C2789: 'establecimiento::horario_semana': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(33,18): message : vea la declaración de 'establecimiento::horario_semana'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(45,41): error C2789: 'establecimiento::horario_sabado': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(34,18): message : vea la declaración de 'establecimiento::horario_sabado'
+C:\Users\ffior\source\repos\Model\establecimiento.cpp(45,41): error C2789: 'establecimiento::telefono': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\establecimiento.h(35,18): message : vea la declaración de 'establecimiento::telefono'
+  globos.cpp
+C:\Users\ffior\source\repos\Model\globos.h(10,10): fatal  error C1083: No se puede abrir el archivo incluir: 'cumpleaÃ±os.h': No such file or directory
+  golosinas.cpp
+C:\Users\ffior\source\repos\Model\golosinas.h(12,1): error C2236: token inesperado 'class'. Compruebe si olvidó un ';'
+C:\Users\ffior\source\repos\Model\golosinas.h(12,16): error C2059: error de sintaxis: ':'
+C:\Users\ffior\source\repos\Model\golosinas.h(12,18): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\golosinas.h(12,35): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\golosinas.h(12,35): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\golosinas.cpp(17,6): error C2653: 'golosinas': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\golosinas.cpp(17,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\golosinas.cpp(17,45): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\golosinas.cpp(17,45): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\golosinas.cpp(25,6): error C2653: 'golosinas': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\golosinas.cpp(25,49): error C2065: 'gr': identificador no declarado
+C:\Users\ffior\source\repos\Model\golosinas.cpp(25,52): error C2182: 'cantidad': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\golosinas.cpp(32,7): error C2653: 'golosinas': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\golosinas.cpp(32,27): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\golosinas.cpp(32,18): error C2146: error de sintaxis: falta ';' delante del identificador 'get_marca'
+C:\Users\ffior\source\repos\Model\golosinas.cpp(32,30): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\golosinas.cpp(32,30): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\golosinas.cpp(40,6): error C2653: 'golosinas': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\golosinas.cpp(40,33): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\golosinas.cpp(48,6): error C2653: 'golosinas': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\golosinas.cpp(48,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\golosinas.cpp(56,6): error C2653: 'golosinas': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\golosinas.cpp(56,31): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\golosinas.cpp(60,6): error C2653: 'golosinas': no es un nombre de clase o espacio de nombres
+  mantel.cpp
+C:\Users\ffior\source\repos\Model\mantel.cpp(13,14): error C2838: 'mantel_liso': nombre completo no válido en la declaración de miembro
+C:\Users\ffior\source\repos\Model\mantel.cpp(21,14): error C2838: 'agregar_manteles_liso': nombre completo no válido en la declaración de miembro
+C:\Users\ffior\source\repos\Model\mantel.cpp(21,41): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\mantel.cpp(28,15): error C2838: 'get_color': nombre completo no válido en la declaración de miembro
+C:\Users\ffior\source\repos\Model\mantel.cpp(28,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\mantel.cpp(28,24): error C2146: error de sintaxis: falta ';' delante del identificador 'get_color'
+C:\Users\ffior\source\repos\Model\mantel.cpp(28,27): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\mantel.cpp(28,27): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\mantel.cpp(36,14): error C2838: 'set_stock': nombre completo no válido en la declaración de miembro
+C:\Users\ffior\source\repos\Model\mantel.cpp(36,29): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\mantel.cpp(44,14): error C2838: 'set_cant': nombre completo no válido en la declaración de miembro
+C:\Users\ffior\source\repos\Model\mantel.cpp(44,28): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\mantel.cpp(48,14): error C2838: 'Operation1': nombre completo no válido en la declaración de miembro
+C:\Users\ffior\source\repos\Model\mantel.cpp(52,14): error C2838: 'mantel_liso': nombre completo no válido en la declaración de miembro
+C:\Users\ffior\source\repos\Model\mantel.cpp(52,25): error C2084: la función 'void mantel_liso(void)' ya tiene un cuerpo
+C:\Users\ffior\source\repos\Model\mantel.cpp(13,25): message : vea la definición anterior de 'mantel_liso'
+  mantel_decorado.cpp
+C:\Users\ffior\source\repos\Model\mantel_decorado.h(11,10): error C2182: 'Attribute1': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\mantel_decorado.h(13,23): error C2533: 'mantel_decorado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\mantel_decorado.h(18,38): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\mantel_decorado.h(23,24): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\mantel_decorado.h(26,23): error C2533: 'mantel_decorado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\mantel_decorado.h(30,12): error C3646: 'tipo_decoracion': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\mantel_decorado.h(30,27): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\mantel_decorado.cpp(13,23): error C2533: 'mantel_decorado::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\mantel_decorado.cpp(21,55): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\mantel_decorado.cpp(29,41): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\mantel_decorado.cpp(33,23): error C2533: 'mantel_decorado::{ctor}': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\mantel_decorado.cpp(33,23): error C2084: la función 'mantel_decorado::mantel_decorado(void)' ya tiene un cuerpo
+C:\Users\ffior\source\repos\Model\mantel_decorado.cpp(13,23): message : vea la definición anterior de '{ctor}'
+  persona.cpp
+C:\Users\ffior\source\repos\Model\cliente.h(12,31): error C2504: 'persona': clase base sin definir
+C:\Users\ffior\source\repos\Model\cliente.h(15,10): error C2182: 'Attribute1': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\cliente.h(21,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\cliente.h(21,39): error C2533: 'cliente': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\cliente.h(26,13): error C3646: 'pagar': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(26,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(26,31): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(33,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,40): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,51): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(47,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(52,20): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(57,30): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(62,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(71,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(76,23): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(81,31): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(83,6): error C3646: 'get_mail': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(83,14): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(83,16): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(85,14): error C3646: 'get_numero_orden': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(85,30): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(85,32): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(87,13): error C3646: 'get_cant_dinero': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(87,28): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(87,30): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(89,5): error C3646: 'get_JPG': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(89,12): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(89,14): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(91,9): error C3646: 'get_disfraz': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(91,20): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(91,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(93,17): error C3646: 'get_dias_alquilando': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(93,36): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(93,38): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(96,15): error C2533: 'cliente': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\cliente.h(99,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\cliente.h(99,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(99,22): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(100,19): error C3646: 'medio_pago': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(100,29): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(102,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\cliente.h(102,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(102,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(12,35): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\empleado.h(21,20): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\empleado.h(21,33): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\empleado.h(21,33): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\empleado.h(21,40): error C2533: 'empleado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\empleado.h(23,21): error C2061: error de sintaxis: identificador 'numero_orden'
+C:\Users\ffior\source\repos\Model\empleado.h(23,34): error C2590: 'llamar_cliente': solo un constructor puede tener una lista de inicializadores de base o miembro
+C:\Users\ffior\source\repos\Model\empleado.h(23,34): error C2533: 'empleado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\empleado.h(23,41): error C2969: error de sintaxis: ';': se esperaba que la definición de función miembro finalizase con '}'
+C:\Users\ffior\source\repos\Model\empleado.h(27,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\empleado.h(27,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\empleado.h(27,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\empleado.h(29,10): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\empleado.h(29,22): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\empleado.h(29,24): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\empleado.h(32,16): error C2533: 'empleado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\empleado.h(34,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\empleado.h(34,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(34,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(35,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\empleado.h(35,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(35,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\empleado.h(23): error C2059: error de sintaxis: 'tipo'
+C:\Users\ffior\source\repos\Model\trabajador.h(14,7): error C2059: error de sintaxis: '<encabezado de clase>'
+C:\Users\ffior\source\repos\Model\trabajador.h(14,69): error C2630: ';' se ha encontrado en lo que debería ser una lista separada por comas
+C:\Users\ffior\source\repos\Model\trabajador.h(14,69): error C2789: 'empleado::nombre': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\empleado.h(34,18): message : vea la declaración de 'empleado::nombre'
+C:\Users\ffior\source\repos\Model\trabajador.h(14,69): error C2789: 'empleado::apellido': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\empleado.h(35,18): message : vea la declaración de 'empleado::apellido'
+C:\Users\ffior\source\repos\Model\trabajador.h(15,1): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\trabajador.h(22,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\trabajador.h(23,1): error C2059: error de sintaxis: 'protected'
+C:\Users\ffior\source\repos\Model\encargado.h(12,36): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2590: 'empaquetar': solo un constructor puede tener una lista de inicializadores de base o miembro
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(14,27): error C2969: error de sintaxis: ';': se esperaba que la definición de función miembro finalizase con '}'
+C:\Users\ffior\source\repos\Model\encargado.h(21,21): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(21,34): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(21,34): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\encargado.h(21,41): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(26,13): error C3646: 'cobrar': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(26,19): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(26,33): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(31,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(36,29): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(41,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(41,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(41,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(43,8): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(43,20): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(43,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(46,17): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(48,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\encargado.h(48,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(48,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(49,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\encargado.h(49,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(49,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(14): error C2222: tipo inesperado 'void': se esperaba un miembro o clase base
+C:\Users\ffior\source\repos\Model\encargado.h(14,27): error C2059: error de sintaxis: ';'
+C:\Users\ffior\source\repos\Model\persona.h(15,7): error C2059: error de sintaxis: '<encabezado de clase>'
+C:\Users\ffior\source\repos\Model\persona.h(15,85): error C2630: ';' se ha encontrado en lo que debería ser una lista separada por comas
+C:\Users\ffior\source\repos\Model\persona.h(15,85): error C2789: 'encargado::nombre': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\encargado.h(48,18): message : vea la declaración de 'encargado::nombre'
+C:\Users\ffior\source\repos\Model\persona.h(15,85): error C2789: 'encargado::apellido': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\encargado.h(49,18): message : vea la declaración de 'encargado::apellido'
+C:\Users\ffior\source\repos\Model\persona.h(16,1): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\persona.h(25,14): error C2588: '::~persona': destructor global no válido
+C:\Users\ffior\source\repos\Model\persona.h(27,8): error C2146: error de sintaxis: falta ';' delante del identificador 'get_nombre'
+C:\Users\ffior\source\repos\Model\persona.h(27,8): error C3861: 'get_nombre': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\persona.h(29,10): error C2146: error de sintaxis: falta ';' delante del identificador 'get_apellido'
+C:\Users\ffior\source\repos\Model\persona.h(29,22): fatal  error C1003: el recuento de errores supera 100; se detiene la compilación
+  reposteria.cpp
+C:\Users\ffior\source\repos\Model\reposteria.h(12,1): error C2236: token inesperado 'class'. Compruebe si olvidó un ';'
+C:\Users\ffior\source\repos\Model\reposteria.h(12,17): error C2059: error de sintaxis: ':'
+C:\Users\ffior\source\repos\Model\reposteria.h(12,19): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\reposteria.h(12,36): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ffior\source\repos\Model\reposteria.h(12,36): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\ffior\source\repos\Model\reposteria.cpp(13,6): error C2653: 'reposteria': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\reposteria.cpp(17,6): error C2653: 'reposteria': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\reposteria.cpp(21,6): error C2653: 'reposteria': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\reposteria.cpp(21,29): error C2084: la función 'void reposteria(void)' ya tiene un cuerpo
+C:\Users\ffior\source\repos\Model\reposteria.cpp(13,18): message : vea la definición anterior de 'reposteria'
+C:\Users\ffior\source\repos\Model\reposteria.cpp(25,6): error C2653: 'reposteria': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\reposteria.cpp(34,6): error C2653: 'reposteria': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\reposteria.cpp(34,42): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\reposteria.cpp(34,59): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\reposteria.cpp(42,6): error C2653: 'reposteria': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\reposteria.cpp(42,34): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\reposteria.cpp(50,6): error C2653: 'reposteria': no es un nombre de clase o espacio de nombres
+C:\Users\ffior\source\repos\Model\reposteria.cpp(50,33): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\reposteria.cpp(54,6): error C2653: 'reposteria': no es un nombre de clase o espacio de nombres
+  trabajador.cpp
+C:\Users\ffior\source\repos\Model\encargado.h(12,36): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2590: 'empaquetar': solo un constructor puede tener una lista de inicializadores de base o miembro
+C:\Users\ffior\source\repos\Model\encargado.h(14,22): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(14,27): error C2969: error de sintaxis: ';': se esperaba que la definición de función miembro finalizase con '}'
+C:\Users\ffior\source\repos\Model\encargado.h(21,21): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(21,34): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(21,34): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\encargado.h(21,41): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(26,13): error C3646: 'cobrar': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(26,19): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(26,33): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(31,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(36,29): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\encargado.h(41,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(41,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(41,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(43,8): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\encargado.h(43,20): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\encargado.h(43,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\encargado.h(46,17): error C2533: 'encargado': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\encargado.h(48,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\encargado.h(48,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(48,24): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(49,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\encargado.h(49,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(49,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\encargado.h(14): error C2222: tipo inesperado 'void': se esperaba un miembro o clase base
+C:\Users\ffior\source\repos\Model\encargado.h(14,27): error C2059: error de sintaxis: ';'
+C:\Users\ffior\source\repos\Model\empleado.h(12,7): error C2059: error de sintaxis: '<encabezado de clase>'
+C:\Users\ffior\source\repos\Model\empleado.h(12,35): error C2630: ';' se ha encontrado en lo que debería ser una lista separada por comas
+C:\Users\ffior\source\repos\Model\empleado.h(12,35): error C2789: 'encargado::nombre': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\encargado.h(48,18): message : vea la declaración de 'encargado::nombre'
+C:\Users\ffior\source\repos\Model\empleado.h(12,35): error C2789: 'encargado::apellido': se debe inicializar un objeto de tipo
+C:\Users\ffior\source\repos\Model\encargado.h(49,18): message : vea la declaración de 'encargado::apellido'
+C:\Users\ffior\source\repos\Model\empleado.h(13,1): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\empleado.h(21,20): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\empleado.h(21,33): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\empleado.h(21,33): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\empleado.h(23,6): error C2182: 'llamar_cliente': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\empleado.h(23,21): error C2065: 'numero_orden': identificador no declarado
+C:\Users\ffior\source\repos\Model\empleado.h(23,34): error C2143: error de sintaxis: falta ';' delante de ':'
+C:\Users\ffior\source\repos\Model\empleado.h(23,34): error C2059: error de sintaxis: ':'
+C:\Users\ffior\source\repos\Model\empleado.h(27,8): error C2146: error de sintaxis: falta ';' delante del identificador 'get_nombre'
+C:\Users\ffior\source\repos\Model\empleado.h(27,8): error C3861: 'get_nombre': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\empleado.h(29,10): error C2146: error de sintaxis: falta ';' delante del identificador 'get_apellido'
+C:\Users\ffior\source\repos\Model\empleado.h(29,10): error C3861: 'get_apellido': no se encontró el identificador
+C:\Users\ffior\source\repos\Model\empleado.h(30,1): error C2059: error de sintaxis: 'protected'
+C:\Users\ffior\source\repos\Model\empleado.h(33,1): error C2059: error de sintaxis: 'private'
+C:\Users\ffior\source\repos\Model\empleado.h(35,5): error C2065: 'string': identificador no declarado
+C:\Users\ffior\source\repos\Model\empleado.h(35,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\empleado.h(35,26): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(12,31): error C2504: 'persona': clase base sin definir
+C:\Users\ffior\source\repos\Model\cliente.h(15,10): error C2182: 'Attribute1': este uso de 'void' no es válido
+C:\Users\ffior\source\repos\Model\cliente.h(21,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(21,32): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\cliente.h(21,39): error C2533: 'cliente': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\cliente.h(26,13): error C3646: 'pagar': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(26,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(26,31): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(33,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,27): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,40): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(42,51): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(47,26): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(52,20): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(57,30): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(62,22): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(71,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(76,23): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(81,31): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\cliente.h(83,6): error C3646: 'get_mail': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(83,14): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(83,16): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(85,14): error C3646: 'get_numero_orden': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(85,30): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(85,32): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(87,13): error C3646: 'get_cant_dinero': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(87,28): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(87,30): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(89,5): error C3646: 'get_JPG': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(89,12): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(89,14): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(91,9): error C3646: 'get_disfraz': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(91,20): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(91,22): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(93,17): error C3646: 'get_dias_alquilando': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(93,36): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\cliente.h(93,38): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\cliente.h(96,15): error C2533: 'cliente': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\cliente.h(99,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\cliente.h(99,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(99,22): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(100,19): error C3646: 'medio_pago': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\cliente.h(100,29): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(102,12): error C2143: error de sintaxis: falta ';' delante de 'const'
+C:\Users\ffior\source\repos\Model\cliente.h(102,12): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\cliente.h(102,21): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ffior\source\repos\Model\persona.h(15,65): error C2504: 'empleado': clase base sin definir
+C:\Users\ffior\source\repos\Model\persona.h(15,85): error C2504: 'trabajador': clase base sin definir
+C:\Users\ffior\source\repos\Model\persona.h(23,19): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\persona.h(23,32): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\persona.h(23,32): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\persona.h(23,45): error C2860: 'void' no se puede usar como parámetro de función excepto '(void)'
+C:\Users\ffior\source\repos\Model\persona.h(23,45): error C2086: 'int string': nueva definición
+C:\Users\ffior\source\repos\Model\persona.h(23,52): error C2533: 'persona': los constructores no permiten un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\persona.h(25,7): error C2577: 'persona': destructor no puede tener un tipo de valor devuelto
+C:\Users\ffior\source\repos\Model\persona.h(27,8): error C3646: 'get_nombre': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\persona.h(27,18): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\persona.h(27,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\persona.h(29,10): error C3646: 'get_apellido': especificador de invalidación desconocido
+C:\Users\ffior\source\repos\Model\persona.h(29,22): error C2059: error de sintaxis: '('
+C:\Users\ffior\source\repos\Model\persona.h(29,24): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ffior\source\repos\Model\persona.h(29,24): fatal  error C1003: el recuento de errores supera 100; se detiene la compilación
+  vajilla descartable.cpp
+C:\Users\ffior\source\repos\Model\vajilla descartable.h(6,1): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\ffior\source\repos\Model\vajilla descartable.h(9,15): error C2079: 'descartable' utiliza class 'vajilla' sin definir
+C:\Users\ffior\source\repos\Model\vajilla descartable.h(10,1): error C2059: error de sintaxis: 'public'
+C:\Users\ffior\source\repos\Model\vajilla descartable.h(12,1): error C2059: error de sintaxis: 'private'
+C:\Users\ffior\source\repos\Model\vajilla descartable.h(24,1): error C2059: error de sintaxis: '}'
+C:\Users\ffior\source\repos\Model\vajilla descartable.h(24,1): error C2143: error de sintaxis: falta ';' delante de '}'
+  vajilla_descartable.cpp
+C:\Users\ffior\source\repos\Model\vajilla_descartable.h(9,10): fatal  error C1083: No se puede abrir el archivo incluir: 'cumpleaÃ±os.h': No such file or directory
+  vela.cpp
+C:\Users\ffior\source\repos\Model\vela.h(10,10): fatal  error C1083: No se puede abrir el archivo incluir: 'cumpleaÃ±os.h': No such file or directory
+  Generando código...
